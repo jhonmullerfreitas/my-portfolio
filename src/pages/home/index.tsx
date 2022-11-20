@@ -44,21 +44,21 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Olá, meu nome é {userData.nameUser}</Text>
+              <Text color="grey4">Olá, meu nome é {userData.nameUser}, tenho 25 anos, casado, amante da área de TI e tenho o sonho de me tornar um Engenheiro de Software.</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            Sou {" "}
+            Trabalho com {" "}
               {/* <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "} */}
               {/* creating and{" "} */}
               <Text as="span" type="heading1" color="brand1">
-                Desenvolvedor Web FullStack
+                Desenvolvimento Web FullStack
               </Text>{" "}
               {/* projects */}
             </Text>
             <Text type="body1" color="grey2">
-              Seja bem vindo(a) ao meu portfólio. Aqui você pode conhecer um pouco sobre minhas habilidades e ver alguns projetos que já desenvolvi.
+              Sou estudante de Desenvolvimento Web FullStack da Kenzie Academy Brasil, também estudo Análise e Desenvolvimento de Sistemas pela Faculdade Católica Paulista. Neste portfólio você pode acompanhar um pouco de alguns projetos que já desenvolvi.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
